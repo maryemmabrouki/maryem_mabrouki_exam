@@ -19,10 +19,15 @@ body{
     font-family: "DM Sans", sans-serif;
   
 }
+section2 img{
+    width: 1200px;
+    padding: 25px;
+}
+    
 
 .rh{
   display: flex;
-    gap: 8px;color: white;
+    gap: 15px;color: white;
 }
 .header img{
     width: 90px;
@@ -39,27 +44,30 @@ body{
     font-family: 'Poppins', sans-serif;
 
 }
+.ux{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+padding: 100px 80px;
+}
 span{
     font-family: "DM Sans", sans-serif;
     font-weight: 900;
-}
-.ux{
-    padding: 100px 80px;
 }
 section1{
     height: 500px;
     justify-content: center;
 }
 /****************************************/
-section2 img{
-    width: 600px;
-    padding: 25px;
-}
 
+section2 img{
+    padding: 30px;
+}
+    
 .sc{
     margin-left: 25px;
     font-family: 'Poppins', sans-serif;
-
+    font-size: 25px;
 }
 /**********************/
 .sw{
@@ -86,36 +94,35 @@ section2 img{
     gap: 70px;
     align-items: center;
 }
-.s img{
-    width: 300px;
-}
 .btn{
     display: flex;
     align-items: center;
+    font-size: 4px;
 }
 .btn button{
-    border-radius: 20px;
+    border-radius: 40px;
+    padding: 20px;
     align-items: center;
-    border: none;
-    color: inherit;
+    background-color: inherit;
+    color: aliceblue;
 }
 .btn img{
     width: 20px;
     margin-top: 10px;
 }
 .r_s{
-    font-size: 10px;
-    line-height: 15px;
+    font-size: 19px;
 }
 /******************/
 .rs4{
     display: flex;
-    gap: 10px;
+    gap: 40px;
 }
 .rs4 img{
-    width: 140px;
+    width: 200px;
 }
-.gtr{padding: 90px 0px;
+.gtr{
+    padding: 90px 0px;
 }
 section4{
     padding: 25px;
@@ -124,13 +131,14 @@ section4{
     align-items: center;
 }
 .ls4{
-    
     font-family: 'Poppins', sans-serif;
     width: 50%;
 }
-.rrrs4{
+.rrrs4 img{
     display: flex;
+    gap: 20px;
 }
+    
 section5{
     display: flex;
     flex-direction: column;
@@ -139,14 +147,61 @@ section5{
 
 @media screen and (max-width:500px){
     
-    
-    .s{
+    .ux{
+        font-size: 7px;
+padding: 50px 20px;
+    }
+    .r{
+        width: 390px;
+    }
+    .s img{
+        width: 100px;
+    }
+    .r_s{
+        font-size: 8px;
+    }
+    section5 {
+        width: 200px;
+
+    }
+    .ls4{
+        font-size: 6px;
+    }
+    section4{
         display: flex;
     }
+    .r_s{
+        font-size: 11px;
+    }
+.s img{
+    width: 300px;
+}
     
-    
-    
-    
+.btn img{
+    width: 20px;
+    margin-top: 10px;
+}section2 img{
+    width: 600px;
+    padding: 25px;
+}
+    .rs4 img{
+    width: 50px;
+}
+.rs4{
+    font-size: 8px;
+}
+.sc{
+    font-size: 8px;
+}
+.sw{
+    font-size: 4px;
+}
+section2 img{
+    width: 300px;
+}
+    section4{
+        display: flex;
+    }
     
     
     
