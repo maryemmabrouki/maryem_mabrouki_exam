@@ -1,0 +1,62 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:500px){
+    .navbar{
+        flex-direction: column;
+        height: 100vh;
+        position: fixed;
+        background-color: black;
+        top: 0;
+        right: 0;
+        width: 300px;
+        transition: 0.7s ease-in-out;
+    }
+    .toggle{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+    .rectangle{
+        width: 30px;
+        height: 3px;
+        background-color: black;
+    }
+
+}
