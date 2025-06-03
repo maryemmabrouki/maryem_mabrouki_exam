@@ -1,40 +1,156 @@
 
+body{
+    background-color: black;
+    color: aliceblue;
+}
+
+.h22{
+    color: #BC3CD8;
+}
+.T_home{
+    color: rgb(240, 243, 246);
+    height: 5px;
+    width: 20px;
+    border-radius: 30px;
+}
+.rh h2{
+    font-weight: bold;
+    
+    font-family: "DM Sans", sans-serif;
+  
+}
+
+.rh{
+  display: flex;
+    gap: 8px;color: white;
+}
+.header img{
+    width: 90px;
+    height: 50px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+.ux h2{
+    font-weight: 10;
+    font-family: 'Poppins', sans-serif;
+
+}
+span{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 900;
+}
+.ux{
+    padding: 100px 80px;
+}
+section1{
+    height: 500px;
+    justify-content: center;
+}
+/****************************************/
+section2 img{
+    width: 600px;
+    padding: 25px;
+}
+
+.sc{
+    margin-left: 25px;
+    font-family: 'Poppins', sans-serif;
+
+}
+/**********************/
+.sw{
+    margin-left: 25px;
+    font-size: 8px;
+    font-family: 'Poppins', sans-serif;
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
+.s h2{ 
+    font-family: 'Poppins', sans-serif;
+} 
+.s h5{
+    font-family: 'Poppins', sans-serif;
+}
+.s h1{
+    font-size: 12px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: bold;
+}
+.s{
+    display: flex;
+    padding: 20px;
+    gap: 70px;
+    align-items: center;
+}
+.s img{
+    width: 300px;
+}
+.btn{
+    display: flex;
+    align-items: center;
+}
+.btn button{
+    border-radius: 20px;
+    align-items: center;
+    border: none;
+    color: inherit;
+}
+.btn img{
+    width: 20px;
+    margin-top: 10px;
+}
+.r_s{
+    font-size: 10px;
+    line-height: 15px;
+}
+/******************/
+.rs4{
+    display: flex;
+    gap: 10px;
+}
+.rs4 img{
+    width: 140px;
+}
+.gtr{padding: 90px 0px;
+}
+section4{
+    padding: 25px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.ls4{
+    
+    font-family: 'Poppins', sans-serif;
+    width: 50%;
+}
+.rrrs4{
+    display: flex;
+}
+section5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 @media screen and (max-width:500px){
+    
+    
+    .s{
+        display: flex;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
     .navbar{
         flex-direction: column;
         height: 100vh;
