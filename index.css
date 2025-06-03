@@ -24,7 +24,10 @@ section2 img{
     padding: 25px;
 }
     
-
+.btn img {
+        width: 15px;
+        margin-top: 5px;
+    }
 .rh{
   display: flex;
     gap: 15px;color: white;
@@ -146,65 +149,108 @@ section5{
 }
 
 @media screen and (max-width:500px){
-    
-    .ux{
-        font-size: 7px;
+    @media screen and (max-width: 500px) {
+    body {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .T_home {
+        width: 15px;
+        height: 5px;
+    }
+
+    section2 img {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .header {
+        font-size: 6px;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .header img {
+        width: 70px;
+        height: auto;
+    }
+
+    section1 {
+        height: auto;
+        padding: 20px 10px;
+    }
+
+    .s {
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .btn {
+        font-size: 10px;
+        justify-content: center;
+    }
+
+    .btn button {
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    .btn img {
+        width: 15px;
+        margin-top: 5px;
+    }
+
+    .rs4 {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .rs4 img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    section4 {
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .ls4 {
+        width: 100%;
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .rrrs4 img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .sc,
+    .sw {
+        margin-left: 10px;
+        font-size: 10px;
+    }
+
+    .s h1 {
+        font-size: 10px;
+    }
+
+.ux{
+        font-size: 10px;
 padding: 50px 20px;
     }
-    .r{
-        width: 390px;
+    .r_s {
+        font-size: 12px;
     }
-    .s img{
-        width: 100px;
     }
-    .r_s{
-        font-size: 8px;
+    section5 img{
+        width: 70%;
     }
-    section5 {
-        width: 200px;
-
-    }
-    .ls4{
-        font-size: 6px;
-    }
-    section4{
-        display: flex;
-    }
-    .r_s{
-        font-size: 11px;
-    }
-.s img{
-    width: 300px;
-}
-    
-.btn img{
-    width: 20px;
-    margin-top: 10px;
-}section2 img{
-    width: 600px;
-    padding: 25px;
-}
-    .rs4 img{
-    width: 50px;
-}
-.rs4{
-    font-size: 8px;
-}
-.sc{
-    font-size: 8px;
-}
-.sw{
-    font-size: 4px;
-}
-section2 img{
-    width: 300px;
-}
-    section4{
-        display: flex;
-    }
-    
-    
-    
     
     .navbar{
         flex-direction: column;
